@@ -70,7 +70,6 @@ function GamePine (props) {
       title: '万圣节凌晨！小鬼降世！',
       detail: '告别牛头马面，礼让黑白无常，独自悠哉在奈何桥边，一碗孟婆汤，一盏南瓜灯，天时，地利，人和，踏进重生之门，独闯万圣月夜。雨夜潮暗，风鸣电闪，凌晨钟声，小鬼降世人间。毛孩骇人，名曰一恒，父母慈爱，潜心抚安，欲知后事，待君且看……',
       img_url: 'images/hospital.png',
-      isShowing: false,
       scale: 0.7,
       x: 200,
       y: 284
@@ -81,7 +80,6 @@ function GamePine (props) {
       title: '中学：典型反派人物！',
       detail: '私办6张不同的饭卡以应对分年纪吃饭的策略；每周末3小时放假时间，2小时用来打游戏；一沓请假条只为了中午能吃上路边肉夹馍；认的10个妹妹+2个秘书可谓一段佳话；凭借一手PPT技术经常办公室乘凉；利用老师们信息不对称的漏洞，给自己调了体育课程；嫌弃老师随机点名不公平，做了一个点名器造福人民；每天保证10小时的睡眠时间，决不亏欠自己;真实水平的物理成绩最高时全校第一，最低14分；每天学控梦，研究出了一套入睡和控梦的方法；偶尔半夜打鸡血，写个八千余字的人生感悟……',
       img_url: 'images/middle-school.png',
-      isShowing: false,
       scale: 1.2,
       x: 800,
       y: 199
@@ -92,7 +90,6 @@ function GamePine (props) {
       title: '初饮C语言，醉美醉痴迷',
       detail: '难得混完高中，开始追求更鬼的目标："牛掰且有钱"。决定以后从事IT，那么就从C语言入门：从变量到循环，从结构体到指针，一直到"天下第一武道会"的英雄循环攻击的控制台版游戏。说生生的人，就这样腻在代码里，一去不复返……',
       img_url: 'images/c.png',
-      isShowing: false,
       scale: 2,
       x: 1900,
       y: 464
@@ -103,7 +100,6 @@ function GamePine (props) {
       title: '大学，走上玩程序的不归路',
       detail: '编程魅力太大，每天陷入刷题不可自拔，每一次AC都能高兴老半天。每当军训结束后，就急着赶回宿舍去做两道编程题，后来军事理论就挂科了（捂脸），从此开启了"日常编程，考前突击"的两步走战略，极大提高了我军的灵活度。',
       img_url: 'images/university.png',
-      isShowing: false,
       scale: 0.3,
       x: 2200,
       y: 314
@@ -114,7 +110,6 @@ function GamePine (props) {
       title: '脱单！追上女神！',
       detail: '通过坚持不懈地死缠烂打和软磨硬泡，在10月10日的凌晨，表白成功，追上调皮可爱的小仙女一枚。一沓子火车汽车票，一份痴心真感情，一念郑州，一念洛阳，一段异地恋就此展开……',
       img_url: 'images/inLove.png',
-      isShowing: false,
       scale: 0.4,
       x: 2700,
       y: 369
@@ -125,7 +120,6 @@ function GamePine (props) {
       title: '加入校级软件实验室',
       detail: '"创新基地"乃校级软件实验室，凭借一手c语言功底，成功入围，吸收比较进步的思维和知识。通过在团队的生活，让自己对"开发者"有了更进一步的了解，加入实验室是自己未来从事开发职业非常重要的一环，在这里得到了很多的成长。',
       img_url: 'images/joinGroup.png',
-      isShowing: false,
       scale: 1,
       x: 3200,
       y: 362
@@ -136,7 +130,6 @@ function GamePine (props) {
       title: '我去！前端贼有意思！',
       detail: '在做Java-Swing桌面图形界面的时候，发现了自己对View/UI层的痴迷，随着后续对Html/CSS的了解，越来越发现自己喜欢这一方向，于是开始筹备自己成为一名"靠谱的前端工程师"的计划……',
       img_url: 'images/definedGoal.png',
-      isShowing: false,
       scale: 1,
       x: 3850,
       y: 304
@@ -147,7 +140,6 @@ function GamePine (props) {
       title: '晋升实验室负责人',
       detail: '有幸得到赏识，被提拔为实验室负责人。任职期间，带领实验室成员拿下国家级和省级奖项20+，并组织开发了实验室首个信息化管理平台的初版，丰富了实验室的管理模式，细化了一些管理方案并总结成文档。',
       img_url: 'images/groupLeader.png',
-      isShowing: false,
       scale: 0.5,
       x: 4400,
       y: 384
@@ -158,7 +150,6 @@ function GamePine (props) {
       title: '创业产品-护驾行',
       detail: '偶然刷到"疲劳驾驶"的短视频，了解到它对危害性和出事率，试想研发一款产品，经过市场调研，评估市场竞争力和需求程度，确定了"基于人脸检测的软硬件分离架构方案"，并命名为"护驾行"，让自己以产品经理的视角打磨一款新产品。其中技术获得大学生创新训练技术国家级重点立项，并拿到互联网+二等奖。',
       img_url: 'images/production_hujiaxing.png',
-      isShowing: false,
       scale: 0.3,
       x: 5000,
       y: 489
@@ -169,7 +160,6 @@ function GamePine (props) {
       title: '处女座《CanvasStudy》',
       detail: '闭眼冥想，总有一丝悸动在心中若隐若现，拂开雾纱，那是曾经学习过程中略过的Canvas，最后还是放不下它。于是，展开了对Canvas的学习，为了保持头脑清醒和养成总结的习惯，开设了《CanvasStudy》的专栏，并在半年内访问量过万，并持续更新中',
       img_url: 'images/canvasStudy.png',
-      isShowing: false,
       scale: 0.8,
       x: 5300,
       y: 319
@@ -180,7 +170,6 @@ function GamePine (props) {
       title: '入职-墨刀',
       detail: '在2020的这场疫情风暴下，通过了墨刀的面试并成功入职。2018年，开发软件时使用墨刀，2020年，成为墨刀的开发人员。在这个二十余人的团队里，创造了将近200万用户的C端产品。通过在内部的工作经验，这个团队有着很强的创造力，能够造有商业价值的"轮子"。',
       img_url: 'images/modao.png',
-      isShowing: false,
       scale: 0.5,
       x: 5700,
       y: 469
@@ -191,7 +180,6 @@ function GamePine (props) {
       title: '斩获腾讯、阿里offers',
       detail: '在2020春招这场战争中，作为大三学生的我，拿下了腾讯、阿里等公司的暑期实习offer，深思熟虑比较之后，放弃了高转正率的阿里转而拥抱了腾讯。在这个春招过程中，深刻认识到"意识"的重要性，也明白了"战场是新兵成长最快的地方"。',
       img_url: 'images/summerOffers.png',
-      isShowing: false,
       scale: 0.5,
       x: 6300,
       y: 364
@@ -202,7 +190,6 @@ function GamePine (props) {
       title: '未来可期',
       detail: '钱多事少离家近可谓是所有人的未来期待，钱可以通过做事来创造，离家距离掌握在自己手上，挣哗啦啦的钱，买离公司不远的家，也是很实在了哈哈哈。自己对各种类型的知识都持有极大的兴趣，对有趣的知识有着无限的渴望，至少能感受到自己能在这条路上越走越远，至于未来到哪一步，待君且看……',
       img_url: 'images/succeed.png',
-      isShowing: false,
       scale: 0.5,
       x: 6780,
       y: 174

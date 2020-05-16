@@ -1,8 +1,8 @@
 # 时间轴游戏模块
 
-## 介绍
+## [小新快跑](https://github.com/827652549/timeline-game)介绍
 
-本项目为[苏一恒](https://github.com/827652549)个人网站的（预备）组件之一，以游戏的形式展示自己的比较重要的人生历程（时间轴）
+[本项目](https://github.com/827652549/timeline-game)为[苏一恒](https://github.com/827652549)个人网站的（预备）组件之一，以游戏的形式展示自己的比较重要的人生历程（时间轴）
 
 ## 游戏说明
 
@@ -32,6 +32,30 @@ import GamePine from './GamePine'
 <GamePine width={1000}/>
 ```
 
+如果需要将本模块改成自己的时间线，仅需修改state.buildsJson配置：
+
+修改state.bulidsJson:
+```javascript
+[
+    {
+      id: 1, //序号
+      date: 1998, //年份
+      title: '万圣节凌晨！小鬼降世！', //标题
+      detail: '告别牛头马面...', // 内容
+      img_url: 'images/hospital.png', // 背景建筑的图片url
+      scale: 0.7, // 背景图片缩放比例
+      x: 200, // 背景图片的x轴位置
+      y: 284 // 背景图片的y轴位置
+    },
+   {}...
+]
+```
+
+当然你可以有更多的DIY方案，修改这些state的配置：
+
+- initSetting // 修改初始化的Pixi的设置，可参照PixiJS文档
+- backgroundsJson // 修改背景和底板
+- xiaoxin // 修改人物的走动动画
 
 ## 技术概要
 由react-create-app搭建的本演示Demo
@@ -60,7 +84,6 @@ canvas。
 └── src
     ├── App.css
     ├── App.js
-    ├── App.test.js
     ├── GamePine
     │   ├── bump.js
     │   ├── index.js
