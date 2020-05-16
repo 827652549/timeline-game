@@ -11,7 +11,6 @@ function GamePine (props) {
 
     backwoodsColor: '0x061639',
     width: 1286,
-    // width: scale ,
     height: 640
 
   })

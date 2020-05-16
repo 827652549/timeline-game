@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="198e5a3e-704e-45de-b49d-d85e9f2e153b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GamePine/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePine/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,7 +121,8 @@
       <workItem from="1588841565590" duration="26971000" />
       <workItem from="1589124331029" duration="61808000" />
       <workItem from="1589525584308" duration="25000" />
-      <workItem from="1589588915943" duration="8469000" />
+      <workItem from="1589588915943" duration="9265000" />
+      <workItem from="1589639646204" duration="116000" />
     </task>
     <task id="LOCAL-00001" summary="实现小新、场景移动，并将数据抽离到state hook中。初步性能优化，初步确定碰撞检测，待补全碰撞检测函数，待完善进度条动画，待完善JSON的details和实现样式">
       <created>1589385521328</created>
