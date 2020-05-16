@@ -2,7 +2,9 @@
 
 ## [小新快跑](https://github.com/827652549/timeline-game)介绍
 
-[本项目](https://github.com/827652549/timeline-game)为[苏一恒](https://github.com/827652549)个人网站的（预备）组件之一，以游戏的形式展示自己的比较重要的人生历程（时间轴）
+[本项目](https://github.com/827652549/timeline-game)为[苏一恒](https://github.com/827652549)个人网站的（预备）组件之一，以游戏的形式展示自己的比较重要的人生历程（时间轴）。
+
+> 创造不易，感谢手动star🌟
 
 ## 游戏说明
 
